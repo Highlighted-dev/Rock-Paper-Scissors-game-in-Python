@@ -4,6 +4,7 @@ i = 0
 while True:
     userInput = input("Rock, Paper or Scissors: ")
     userInput = userInput.capitalize()
+    
     if userInput.lower() == "exit":
         break
 
