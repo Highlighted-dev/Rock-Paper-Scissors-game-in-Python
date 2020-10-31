@@ -11,10 +11,10 @@ while True:
     rockPaperScissorsArray = ["Rock","Paper","Scissors"]
     botChoice = rockPaperScissorsArray[randomIntForBot]
 
-    print(f"You: {userInput}!")
-    print(f"Bot: {botChoice}!")
+    print(f"You: {userInput}")
+    print(f"Bot: {botChoice}")
     if not userInput in rockPaperScissorsArray:
-        print("You have to type rock, paper or scissors! \n")
+        print("You have to type 'Rock', 'Paper' or 'Scissors' \n")
     elif userInput == botChoice:
         print("Result: Draw! \n")
     elif userInput == "Rock" and botChoice == "Scissors" or userInput == "Scissors" and botChoice == "Rock" or userInput == "Paper" and botChoice == "Rock":
